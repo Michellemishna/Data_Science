@@ -1,0 +1,15 @@
+name: TF-env
+channels:
+  - conda-forge
+dependencies:
+  - anaconda::scikit-learn
+  - conda[version='>=24.3.0']
+  - ipykernel
+  - mamba[version='>=1.5.8']
+  - matplotlib
+  - pip
+  - python==3.12.4
+  - scipy
+  - seaborn==0.13.2
+  - tensorflow
+prefix: /home/unixx/miniforge3/envs/TF-env
